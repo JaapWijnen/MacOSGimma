@@ -23,7 +23,7 @@ class GameScene: Scene {
         add(childNode: quad)
         
         quad.position.z = -3
-        quad.scale = float3(3)
+        quad.position.y = -1.5
     }
     
     override func update(deltaTime: Float) {
