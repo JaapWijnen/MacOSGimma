@@ -52,7 +52,7 @@ extension Renderer: MTKViewDelegate {
             commandBuffer.makeRenderCommandEncoder(descriptor: descriptor)
         let deltaTime = 1 / Float(view.preferredFramesPerSecond)
         commandEncoder.setFragmentSamplerState(samplerState, at: 0)
-        //commandEncoder.setDepthStencilState(depthStencilState)
+        commandEncoder.setDepthStencilState(depthStencilState)
         scene?.render(commandEncoder: commandEncoder,
                       deltaTime: deltaTime)
         commandEncoder.endEncoding()

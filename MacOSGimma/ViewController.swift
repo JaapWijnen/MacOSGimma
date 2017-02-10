@@ -30,7 +30,9 @@ class ViewController: NSViewController {
             fatalError("Device not created. Run on a physical device")
         }
         
-        metalView.clearColor =  Colors.wenderlichGreen
+        metalView.clearColor = Colors.wenderlichGreen
+        metalView.colorPixelFormat = .bgra8Unorm
+        metalView.depthStencilPixelFormat = .depth32Float
         renderer = Renderer(device: device)
         renderer?.scene = GameScene(device: device, size: view.bounds.size)
         metalView.delegate = renderer

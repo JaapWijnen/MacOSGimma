@@ -118,8 +118,8 @@
 			children = (
 				8EB628B51E4C5E3F00B6A91F /* MatrixMath.swift */,
 				8EB628BA1E4C5E3F00B6A91F /* Renderer.swift */,
-				8EB628BC1E4C5E3F00B6A91F /* Shader.metal */,
 				8EB628BE1E4C5E3F00B6A91F /* Types.swift */,
+				8EB628BC1E4C5E3F00B6A91F /* Shader.metal */,
 				8EEE72D01E474D91009F4BE7 /* Scenes */,
 				8EEE72D11E474D9F009F4BE7 /* Nodes */,
 			);
@@ -544,6 +544,7 @@
 				8EB6286E1E4C595300B6A91F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EEE72AB1E474AEF009F4BE7 /* Build configuration list for PBXProject "MacOSGimma" */ = {
 			isa = XCConfigurationList;
